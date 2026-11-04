@@ -81,7 +81,7 @@ class Snake {
 }; 
 int main()
 {
-    InitWindow(gridsize*gridcount, gridsize*gridcount, "Circle");
+    InitWindow(gridsize*gridcount, gridsize*gridcount, "Snake");
     SetTargetFPS(12);
     Snake snake = Snake();
     Food food = Food();
